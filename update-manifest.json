@@ -2,12 +2,12 @@
   "schema_version": 2,
   "product": "intercars-agent-x",
   "channel": "stable",
-  "version": "12.7.0.24",
-  "edition": "M3.3.7 Part 19A - Health Status Fix",
-  "release_notes": "Ispravlja Windows packaging za Health / Status centar tako da dinamički učitani moduli gui.system_status_page i services.system_status budu uključeni u PyInstaller paket i više ne mogu izazvati grešku No module named gui.system_status_page. Istovremeno Centralni server sada jasnije razlikuje prijavu, nedostupan server, prazan katalog i zastarjelu API schemu, a Sinhronizacija prikazuje stanje lokalnog cachea, broj promjena koje čekaju, konflikte, zadnji uspješni sync i server sequence. Poslovni podaci i postojeća OTA logika nisu mijenjani.",
+  "version": "12.7.0.25",
+  "edition": "M3.3.7 Part 19B - Auto Sync Queue Fix",
+  "release_notes": "Ispravlja automatsku centralnu sinhronizaciju tako da veliki red više nije blokiran kada ima više od 100 promjena: tihi sync sada šalje do 100 sigurnih promjena po ciklusu i nastavlja sa ostatkom u narednim ciklusima, dok ručni Sinhronizuj sada i dalje može poslati cijeli red. OLX provjera više ne pravi novi POŠALJI red kada se promijenilo samo tehničko polje OLX zadnja sinhronizacija; taj timestamp se čuva lokalno bez dirty statusa i bez history šuma. Stvarne OLX promjene kao ID, status, URL ili greška i dalje se normalno sinhronizuju sa centralnim serverom.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66549106,
-  "sha256": "5eca14db994d3adcb4c6cf5bd9145c94ae5762ce143382ba55b162bd0650168c",
-  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.24/Intercars-Agent-X-v12.7.0.24-Windows-Update.zip",
-  "published_at": "2026-08-29T23:03:04Z"
+  "size_bytes": 66549998,
+  "sha256": "95ecfaca872d648d5f362d2056cffdd99da0116c3d1819ebd563d7c7e28b6fac",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.25/Intercars-Agent-X-v12.7.0.25-Windows-Update.zip",
+  "published_at": "2026-08-29T23:34:58Z"
 }
