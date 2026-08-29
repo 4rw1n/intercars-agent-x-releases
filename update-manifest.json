@@ -2,12 +2,12 @@
   "schema_version": 2,
   "product": "intercars-agent-x",
   "channel": "stable",
-  "version": "12.7.0.22",
-  "edition": "M3.3.7 Part 18E - Automated Stable Release",
-  "release_notes": "Prvi test potpuno automatske stable objave nakon uspješno potvrđenog OTA updatera. GitHub Actions nakon uspješnih testova i safe-updater validacije automatski kreira GitHub Release, uploaduje provjereni Windows ZIP, potvrđuje veličinu i SHA-256 te ažurira public stable manifest. Poslovne funkcije i korisnički podaci nisu mijenjani.",
+  "version": "12.7.0.23",
+  "edition": "M3.3.7 Part 19 - Health Status Center",
+  "release_notes": "Dodaje novi read-only Health / Status centar za svakodnevnu provjeru centralnog servera, WooCommercea, OLX-a, Inter Cars sesije, sinhronizacije, backupa i verzije programa na jednom ekranu. Inter Cars provjera ne pokreće pretragu niti zaobilazi sigurnosne provjere. Dodani su brzi pristupi relevantnim alatima uz postojeće korisničke dozvole. Poslovni podaci i postojeća OTA logika nisu mijenjani.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66531346,
-  "sha256": "e3a4f593f8ccd9b1273983e6153d49966c940c50dba75664bd9c15b677d110ab",
-  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.22/Intercars-Agent-X-v12.7.0.22-Windows-Update.zip",
-  "published_at": "08/29/2026 22:26:37"
+  "size_bytes": 66532061,
+  "sha256": "8e4cd94f0bd95f9eed7fe904159946b298e8c4d15434572d4b8af7d30643a3f9",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.23/Intercars-Agent-X-v12.7.0.23-Windows-Update.zip",
+  "published_at": "2026-08-29T22:49:45Z"
 }
