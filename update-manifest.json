@@ -4,10 +4,10 @@
   "channel": "stable",
   "version": "12.7.0.19",
   "edition": "M3.3.7 Part 18B - First OTA Update Test",
-  "release_notes": "Prvi end-to-end GitHub OTA test: verzija 12.7.0.19 služi za provjeru kompletnog toka automatskog ažuriranja sa instalirane 12.7.0.18 verzije. Ugrađene su Windows kompatibilne SQLite backup/restore korekcije i prenosiva obrada korisničkih putanja; poslovne funkcije nisu mijenjane.",
+  "release_notes": "Prvi end-to-end GitHub OTA test: verzija 12.7.0.19 služi za provjeru kompletnog toka automatskog ažuriranja sa instalirane 12.7.0.18 verzije. Ugrađene su Windows kompatibilne SQLite backup/restore korekcije, prenosiva obrada korisničkih putanja i trajni fix za detached updater runtime/restart; poslovne funkcije nisu mijenjane.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66530608,
-  "sha256": "7331fea485d5f98323fe40450879cbaaf161f595f7a84b5b579e468149a73676",
+  "size_bytes": 66530950,
+  "sha256": "e08853d62ed3834a4e83486a0bfa8af5093282d139ce012e40df5f2f58c1adc7",
   "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.19/Intercars-Agent-X-v12.7.0.19-Windows-Update.zip",
-  "published_at": "2026-08-29T20:29:45Z"
+  "published_at": "2026-08-29T20:47:57Z"
 }
