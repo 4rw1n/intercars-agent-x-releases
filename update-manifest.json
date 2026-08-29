@@ -5,9 +5,9 @@
   "version": "12.7.0.18",
   "edition": "M3.3.7 Part 18A - GitHub Automatic Updater",
   "release_notes": "GitHub Automatic Updater: ugrađen je stable GitHub release kanal bez tokena na desktopu, automatska provjera manifesta pri otvaranju Update centra, jasne release notes, stroža validacija product/channel/package_type podataka, kontrola veličine downloada, SHA-256 provjera i dinamički naslov Update centra.",
-  "package_type": "source",
-  "size_bytes": 1360245,
-  "sha256": "9ec9a122e7f40ffe8cb1a07f5de16d01e729396abbea6b67e6b6fcc659637352",
-  "zip_url": "https://raw.githubusercontent.com/4rw1n/intercars-agent-x-releases/main/releases/v12.7.0.18/Intercars-Agent-X-v12.7.0.18-CLEAN-USER.zip",
-  "published_at": "2026-08-29T18:48:47+00:00"
+  "package_type": "windows-onefolder",
+  "size_bytes": 66532792,
+  "sha256": "e3a92e2ec6cd63f589967d744af9d89e65270f21a337d9ceb25035d143c773b4",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.18/Intercars-Agent-X-v12.7.0.18-Windows-Update.zip",
+  "published_at": "2026-08-29T19:36:08Z"
 }
