@@ -2,12 +2,12 @@
   "schema_version": 2,
   "product": "intercars-agent-x",
   "channel": "stable",
-  "version": "12.7.0.25",
-  "edition": "M3.3.7 Part 19B - Auto Sync Queue Fix",
-  "release_notes": "Ispravlja automatsku centralnu sinhronizaciju tako da veliki red više nije blokiran kada ima više od 100 promjena: tihi sync sada šalje do 100 sigurnih promjena po ciklusu i nastavlja sa ostatkom u narednim ciklusima, dok ručni Sinhronizuj sada i dalje može poslati cijeli red. OLX provjera više ne pravi novi POŠALJI red kada se promijenilo samo tehničko polje OLX zadnja sinhronizacija; taj timestamp se čuva lokalno bez dirty statusa i bez history šuma. Stvarne OLX promjene kao ID, status, URL ili greška i dalje se normalno sinhronizuju sa centralnim serverom.",
+  "version": "12.7.0.26",
+  "edition": "M3.3.7 Part 19C - Dynamic GUI Packaging Fix",
+  "release_notes": "Ispravlja Windows packaging za sve GUI module koji se učitavaju dinamički preko _lazy_module/importlib. Build sada automatski skenira GUI izvor i dodaje svaki pronađeni dinamički modul u PyInstaller hidden imports, umjesto ručnog dodavanja jednog po jednog modula. Time su u paket eksplicitno uključeni local_catalog_ui, catalog_explorer, sync_center, gui.purchasing_page i gui.system_status_page, pa greške tipa No module named gui.purchasing_page više ne mogu nastati zbog izostavljenog dinamičkog GUI modula. Poslovna logika, podaci i postojeća auto-sync/OLX poboljšanja iz v12.7.0.25 ostaju nepromijenjeni.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66549998,
-  "sha256": "95ecfaca872d648d5f362d2056cffdd99da0116c3d1819ebd563d7c7e28b6fac",
-  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.25/Intercars-Agent-X-v12.7.0.25-Windows-Update.zip",
-  "published_at": "2026-08-29T23:34:58Z"
+  "size_bytes": 66671070,
+  "sha256": "aeb7fceb5467424b0520c09c528e9d664bf896dc5c6af3ff692679c98a73475c",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.26/Intercars-Agent-X-v12.7.0.26-Windows-Update.zip",
+  "published_at": "2026-08-29T23:43:35Z"
 }
