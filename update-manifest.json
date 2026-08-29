@@ -2,12 +2,12 @@
   "schema_version": 2,
   "product": "intercars-agent-x",
   "channel": "stable",
-  "version": "12.7.0.20",
-  "edition": "M3.3.7 Part 18C - Full OTA Restart Test",
-  "release_notes": "Prvi puni OTA test bez ručnog bootstrapa: verzija 12.7.0.20 provjerava automatski tok sa instalirane 12.7.0.19 verzije, uključujući GitHub provjeru, download, SHA-256, staging, detached updater runtime, sigurnu zamjenu programskih fajlova i automatski restart IntercarsAgentX.exe. Poslovne funkcije nisu mijenjane.",
+  "version": "12.7.0.21",
+  "edition": "M3.3.7 Part 18D - Stable",
+  "release_notes": "Prvo stabilno izdanje nakon uspješno potvrđenog kompletnog GitHub OTA toka. Zadržava provjerene Windows updater popravke, sigurnu SHA-256 provjeru, staging, detached updater runtime, automatsku zamjenu programskih fajlova i restart aplikacije. U build procesu je uklonjen zastarjeli Google service-account hidden import; poslovne funkcije i korisnički podaci nisu mijenjani.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66531269,
-  "sha256": "6776e4dd825e7f34b9c3399852581b501648d8387e6ea2d9a73bc9d3ba9f7899",
-  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.20/Intercars-Agent-X-v12.7.0.20-Windows-Update.zip",
-  "published_at": "2026-08-29T21:11:43Z"
+  "size_bytes": 66531442,
+  "sha256": "933d9e986d8617b458fbad254b422f1e9916bc8a4132511cb1de85c98d45614d",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.21/Intercars-Agent-X-v12.7.0.21-Windows-Update.zip",
+  "published_at": "2026-08-29T21:36:23Z"
 }
