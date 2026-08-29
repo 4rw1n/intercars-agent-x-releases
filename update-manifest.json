@@ -2,12 +2,12 @@
   "schema_version": 2,
   "product": "intercars-agent-x",
   "channel": "stable",
-  "version": "12.7.0.23",
-  "edition": "M3.3.7 Part 19 - Health Status Center",
-  "release_notes": "Dodaje novi read-only Health / Status centar za svakodnevnu provjeru centralnog servera, WooCommercea, OLX-a, Inter Cars sesije, sinhronizacije, backupa i verzije programa na jednom ekranu. Inter Cars provjera ne pokreće pretragu niti zaobilazi sigurnosne provjere. Dodani su brzi pristupi relevantnim alatima uz postojeće korisničke dozvole. Poslovni podaci i postojeća OTA logika nisu mijenjani.",
+  "version": "12.7.0.24",
+  "edition": "M3.3.7 Part 19A - Health Status Fix",
+  "release_notes": "Ispravlja Windows packaging za Health / Status centar tako da dinamički učitani moduli gui.system_status_page i services.system_status budu uključeni u PyInstaller paket i više ne mogu izazvati grešku No module named gui.system_status_page. Istovremeno Centralni server sada jasnije razlikuje prijavu, nedostupan server, prazan katalog i zastarjelu API schemu, a Sinhronizacija prikazuje stanje lokalnog cachea, broj promjena koje čekaju, konflikte, zadnji uspješni sync i server sequence. Poslovni podaci i postojeća OTA logika nisu mijenjani.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66532061,
-  "sha256": "8e4cd94f0bd95f9eed7fe904159946b298e8c4d15434572d4b8af7d30643a3f9",
-  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.23/Intercars-Agent-X-v12.7.0.23-Windows-Update.zip",
-  "published_at": "2026-08-29T22:49:45Z"
+  "size_bytes": 66549106,
+  "sha256": "5eca14db994d3adcb4c6cf5bd9145c94ae5762ce143382ba55b162bd0650168c",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.24/Intercars-Agent-X-v12.7.0.24-Windows-Update.zip",
+  "published_at": "2026-08-29T23:03:04Z"
 }
