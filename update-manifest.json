@@ -2,12 +2,12 @@
   "schema_version": 2,
   "product": "intercars-agent-x",
   "channel": "stable",
-  "version": "12.7.0.27",
-  "edition": "M3.3.7 Part 20 - eLine Invoice Validation",
-  "release_notes": "Dodaje siguran eLine workflow u Nabavku: Inter Cars CSV faktura se provjerava prema eLine Export_Artikli.xlsx i Export_Cijene.xlsx, a svaka stavka dobija status SPREMNO, MPC 0, BEZ CJENOVNIKA, NOVI ARTIKAL ili NEJASAN. Agent može izvesti izvještaj provjere i eLine Excel kalkulaciju samo za sigurne stavke. Preporučeni način izvoza koristi tačnu konačnu nabavnu cijenu iz Inter Cars fakture i POPUST 0,00 radi izbjegavanja eLine razlike zbog zaokruživanja. Testni način sa izračunatim popustom ostaje jasno označen. Agent ne knjiži i ne zaključava ništa u eLine-u.",
+  "version": "12.7.0.28",
+  "edition": "M3.3.7 Part 21 - Inter Cars Search + Sync Consistency",
+  "release_notes": "Popravlja Inter Cars katalog i status centralne sinhronizacije. Agent sada bira stvarnu globalnu Inter Cars pretragu umjesto filter polja na listi rezultata, a rezultat prihvata tek nakon stvarne navigacije ili promjene search URL-a. Kataloški broj se dodatno štiti od slučajnog upisa iste Inter Cars šifre u drugačijem formatu. Nakon uspješne centralne sinhronizacije čiste se samo zastarjeli lokalni dirty markeri za stavke dokazano usklađene sa serverom, tako da Status sistema više ne prikazuje lažno ČEKA SLANJE kada Sync centar pokazuje 0. eLine workflow iz v12.7.0.27 ostaje netaknut.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66691325,
-  "sha256": "42231644648c0fffbc81fe6a1bf4d484164f03fa3fde7e6ae300a6079490a5e6",
-  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.27/Intercars-Agent-X-v12.7.0.27-Windows-Update.zip",
-  "published_at": "2026-08-30T08:38:13Z"
+  "size_bytes": 66695619,
+  "sha256": "dd032cfe161dced8bded56afa92e242af8831005d6cffa4b2e55613eb32b3dbf",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.28/Intercars-Agent-X-v12.7.0.28-Windows-Update.zip",
+  "published_at": "2026-08-30T09:21:00Z"
 }
