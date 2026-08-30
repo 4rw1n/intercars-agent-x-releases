@@ -2,12 +2,12 @@
   "schema_version": 2,
   "product": "intercars-agent-x",
   "channel": "stable",
-  "version": "12.7.0.26",
-  "edition": "M3.3.7 Part 19C - Dynamic GUI Packaging Fix",
-  "release_notes": "Ispravlja Windows packaging za sve GUI module koji se učitavaju dinamički preko _lazy_module/importlib. Build sada automatski skenira GUI izvor i dodaje svaki pronađeni dinamički modul u PyInstaller hidden imports, umjesto ručnog dodavanja jednog po jednog modula. Time su u paket eksplicitno uključeni local_catalog_ui, catalog_explorer, sync_center, gui.purchasing_page i gui.system_status_page, pa greške tipa No module named gui.purchasing_page više ne mogu nastati zbog izostavljenog dinamičkog GUI modula. Poslovna logika, podaci i postojeća auto-sync/OLX poboljšanja iz v12.7.0.25 ostaju nepromijenjeni.",
+  "version": "12.7.0.27",
+  "edition": "M3.3.7 Part 20 - eLine Invoice Validation",
+  "release_notes": "Dodaje siguran eLine workflow u Nabavku: Inter Cars CSV faktura se provjerava prema eLine Export_Artikli.xlsx i Export_Cijene.xlsx, a svaka stavka dobija status SPREMNO, MPC 0, BEZ CJENOVNIKA, NOVI ARTIKAL ili NEJASAN. Agent može izvesti izvještaj provjere i eLine Excel kalkulaciju samo za sigurne stavke. Preporučeni način izvoza koristi tačnu konačnu nabavnu cijenu iz Inter Cars fakture i POPUST 0,00 radi izbjegavanja eLine razlike zbog zaokruživanja. Testni način sa izračunatim popustom ostaje jasno označen. Agent ne knjiži i ne zaključava ništa u eLine-u.",
   "package_type": "windows-onefolder",
-  "size_bytes": 66671070,
-  "sha256": "aeb7fceb5467424b0520c09c528e9d664bf896dc5c6af3ff692679c98a73475c",
-  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.26/Intercars-Agent-X-v12.7.0.26-Windows-Update.zip",
-  "published_at": "2026-08-29T23:43:35Z"
+  "size_bytes": 66691325,
+  "sha256": "42231644648c0fffbc81fe6a1bf4d484164f03fa3fde7e6ae300a6079490a5e6",
+  "zip_url": "https://github.com/4rw1n/intercars-agent-x-releases/releases/download/v12.7.0.27/Intercars-Agent-X-v12.7.0.27-Windows-Update.zip",
+  "published_at": "2026-08-30T08:38:13Z"
 }
